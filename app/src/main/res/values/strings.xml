@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ScribbleSpace</string>
+    <string name="title_activity_add_note">AddNoteActivity</string>
+    <string name="header_title">Заголовок</string>
+    <string name="Title">Заголовок</string>
+    <string name="Data">Содержимое</string>
+    <string name="SaveData">Сохранить заметку</string>
+    <string name="AddData">Добавить заметку</string>
+</resources>

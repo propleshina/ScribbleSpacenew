@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white"
+    android:layout_gravity="center">
+
+    <EditText
+        android:id="@+id/titleEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Заголовок"
+        android:textColorHint="#999"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_border"
+        android:textColor="#333"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/contentEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Содержимое"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:textColorHint="#999"
+        android:padding="12dp"
+        android:background="@drawable/edit_text_border"
+        android:textColor="#333"
+        android:textSize="16sp" />
+</LinearLayout>
